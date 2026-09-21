@@ -1,0 +1,157 @@
+{
+  "split": {
+    "calib_sites": [
+      4,
+      5,
+      6,
+      14,
+      16,
+      17,
+      18,
+      19,
+      21,
+      23,
+      30,
+      31,
+      34,
+      35,
+      40,
+      41,
+      42,
+      43,
+      48,
+      49,
+      50,
+      53,
+      54,
+      56
+    ],
+    "analysis_sites": [
+      0,
+      1,
+      2,
+      3,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      15,
+      20,
+      22,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      32,
+      33,
+      36,
+      37,
+      38,
+      39,
+      44,
+      45,
+      46,
+      47,
+      51,
+      52,
+      55,
+      57,
+      58,
+      59
+    ],
+    "seed": 99,
+    "locked_before_headline": true,
+    "note": "locked before headline"
+  },
+  "transferred_bounds": [
+    0.26152915677434624,
+    15.19706161372907
+  ],
+  "headline": [
+    {
+      "target": "age:A",
+      "lower": 0.3333333333333333,
+      "upper": 0.7916666666666666,
+      "mle": 0.625,
+      "status": "partially_identified",
+      "width_frac": 0.4583333333333333
+    },
+    {
+      "target": "age:B",
+      "lower": 0.0,
+      "upper": 0.625,
+      "mle": 0.3333333333333333,
+      "status": "partially_identified",
+      "width_frac": 0.625
+    },
+    {
+      "target": "branch:root->A",
+      "lower": 0.3333333333333333,
+      "upper": 0.7916666666666666,
+      "mle": 0.625,
+      "status": "partially_identified",
+      "width_frac": 0.4583333333333333
+    },
+    {
+      "target": "order_gap:A,B",
+      "lower": -0.7083333333333334,
+      "upper": 0.125,
+      "mle": -0.2916666666666667,
+      "status": "partially_identified",
+      "width_frac": 0.8333333333333334
+    }
+  ],
+  "sensitivity": [
+    {
+      "bound_factor": 1.0,
+      "lo": 7.729295385251708,
+      "hi": 7.729295385251708,
+      "lower": 0.9500000000000001,
+      "upper": 0.9500000000000001,
+      "width_frac": 0.0,
+      "status": "point_identified"
+    },
+    {
+      "bound_factor": 1.5,
+      "lo": 5.152863590167805,
+      "hi": 11.593943077877562,
+      "lower": 0.8500000000000001,
+      "upper": 0.9500000000000001,
+      "width_frac": 0.09999999999999998,
+      "status": "partially_identified"
+    },
+    {
+      "bound_factor": 2.0,
+      "lo": 3.864647692625854,
+      "hi": 15.458590770503417,
+      "lower": 0.8500000000000001,
+      "upper": 0.9500000000000001,
+      "width_frac": 0.09999999999999998,
+      "status": "partially_identified"
+    },
+    {
+      "bound_factor": 3.0,
+      "lo": 2.5764317950839026,
+      "hi": 23.187886155755123,
+      "lower": 0.75,
+      "upper": 0.9,
+      "width_frac": 0.15000000000000002,
+      "status": "partially_identified"
+    },
+    {
+      "bound_factor": 5.0,
+      "lo": 1.5458590770503418,
+      "hi": 38.64647692625854,
+      "lower": 0.6000000000000001,
+      "upper": 0.8500000000000001,
+      "width_frac": 0.25,
+      "status": "partially_identified"
+    }
+  ],
+  "true_age_A": 0.5
+}

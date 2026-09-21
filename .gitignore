@@ -1,0 +1,10 @@
+.venv/
+.cache/
+.mplconfig/
+.pytest_cache/
+__pycache__/
+*.pyc
+b01_clock.egg-info/
+.DS_Store
+*.logdata_store/convexml/convexml_dryad_trees.tgz
+data_store/convexml/trees.tgz

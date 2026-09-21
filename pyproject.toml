@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "b01-clock"
+version = "0.1.0"
+description = "B01: When is a CRISPR lineage recorder a clock? Timing certificates under heterogeneous editing rates."
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+  "numpy>=1.24",
+  "scipy>=1.10",
+  "cvxpy>=1.4",
+  "pandas>=2.0",
+  "pyyaml>=6.0",
+  "matplotlib>=3.7",
+  "networkx>=3.0",
+  "tqdm>=4.65",
+  "biopython>=1.81",
+  "requests>=2.28",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=7.0"]
+
+[project.scripts]
+b01-clock = "b01_clock.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["b01_clock*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]

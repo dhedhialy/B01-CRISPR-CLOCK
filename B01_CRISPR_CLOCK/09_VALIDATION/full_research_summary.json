@@ -1,0 +1,873 @@
+{
+  "fig1": {
+    "invariance_ok": true,
+    "guardrail": {
+      "scale": 2.0,
+      "rates_in_bounds": true,
+      "preserves_dated_anchor": false,
+      "feasible_with_anchor_and_bounds": false,
+      "feasible_without_anchor": true,
+      "guardrail": "False identification blocked: nontrivial rate\u2013time rescaling exits the locked rate bounds and/or dated anchor."
+    },
+    "width_with_bounds": 0.53
+  },
+  "fig2": {
+    "age_A": {
+      "lower": 0.0,
+      "upper": 0.625,
+      "mle": 0.375,
+      "status": "partially_identified"
+    },
+    "age_B": {
+      "lower": 0.375,
+      "upper": 0.7916666666666666,
+      "mle": 0.625,
+      "status": "partially_identified"
+    },
+    "feasible_frac": 0.2288
+  },
+  "fig3": {
+    "coverage_rows": [
+      {
+        "heterogeneity": 0.0,
+        "coverage": 0.95,
+        "mean_width_frac": 0.5464285714285714,
+        "false_id": 0.0,
+        "abstain": 0.0
+      },
+      {
+        "heterogeneity": 0.25,
+        "coverage": 0.9,
+        "mean_width_frac": 0.5178571428571428,
+        "false_id": 0.0,
+        "abstain": 0.0
+      },
+      {
+        "heterogeneity": 0.5,
+        "coverage": 0.85,
+        "mean_width_frac": 0.46071428571428574,
+        "false_id": 0.0,
+        "abstain": 0.0
+      },
+      {
+        "heterogeneity": 0.75,
+        "coverage": 0.7,
+        "mean_width_frac": 0.43571428571428567,
+        "false_id": 0.0,
+        "abstain": 0.0
+      },
+      {
+        "heterogeneity": 1.0,
+        "coverage": 1.0,
+        "mean_width_frac": 0.4678571428571428,
+        "false_id": 0.0,
+        "abstain": 0.0
+      }
+    ],
+    "per_site_rows": [
+      {
+        "heterogeneity": 0.5,
+        "coverage": 1.0,
+        "mean_width_frac": 0.75,
+        "false_id": 0.0,
+        "abstain": 0.0
+      },
+      {
+        "heterogeneity": 0.75,
+        "coverage": 0.75,
+        "mean_width_frac": 0.609375,
+        "false_id": 0.0,
+        "abstain": 0.0
+      },
+      {
+        "heterogeneity": 1.0,
+        "coverage": 0.75,
+        "mean_width_frac": 0.71875,
+        "false_id": 0.0,
+        "abstain": 0.125
+      }
+    ],
+    "adversarial": [
+      {
+        "spec": "baseline",
+        "assumed_bounds": [
+          0.9523809523809523,
+          1.05
+        ],
+        "true_rate_range": [
+          1.0,
+          1.0
+        ],
+        "rate_bound_misspec_scale": 1.0,
+        "lower": 0.25,
+        "upper": 0.875,
+        "width_frac": 0.625,
+        "covered": true,
+        "status": "partially_identified",
+        "truth": 0.5
+      },
+      {
+        "spec": "site_het_mild",
+        "assumed_bounds": [
+          0.5221672960511929,
+          2.111131846859268
+        ],
+        "true_rate_range": [
+          0.5482756608537526,
+          2.0106017589135883
+        ],
+        "rate_bound_misspec_scale": 1.0,
+        "lower": 0.0,
+        "upper": 0.75,
+        "width_frac": 0.75,
+        "covered": true,
+        "status": "partially_identified",
+        "truth": 0.5
+      },
+      {
+        "spec": "site_het_strong",
+        "assumed_bounds": [
+          0.04421401538988014,
+          6.309328853844115
+        ],
+        "true_rate_range": [
+          0.046424716159374144,
+          6.008884622708681
+        ],
+        "rate_bound_misspec_scale": 1.0,
+        "lower": 0.0,
+        "upper": 0.75,
+        "width_frac": 0.75,
+        "covered": true,
+        "status": "partially_identified",
+        "truth": 0.5
+      },
+      {
+        "spec": "branch_het",
+        "assumed_bounds": [
+          0.9523809523809523,
+          1.05
+        ],
+        "true_rate_range": [
+          1.0,
+          1.0
+        ],
+        "rate_bound_misspec_scale": 1.0,
+        "lower": 0.0,
+        "upper": 0.75,
+        "width_frac": 0.75,
+        "covered": true,
+        "status": "partially_identified",
+        "truth": 0.5
+      },
+      {
+        "spec": "replicate_shift",
+        "assumed_bounds": [
+          1.9047619047619047,
+          2.1
+        ],
+        "true_rate_range": [
+          2.0,
+          2.0
+        ],
+        "rate_bound_misspec_scale": 1.0,
+        "lower": 0.0,
+        "upper": 0.625,
+        "width_frac": 0.625,
+        "covered": true,
+        "status": "partially_identified",
+        "truth": 0.5
+      },
+      {
+        "spec": "stochastic_division",
+        "assumed_bounds": [
+          0.9523809523809523,
+          1.05
+        ],
+        "true_rate_range": [
+          1.0,
+          1.0
+        ],
+        "rate_bound_misspec_scale": 1.0,
+        "lower": 0.0,
+        "upper": 0.25,
+        "width_frac": 0.25,
+        "covered": true,
+        "status": "partially_identified",
+        "truth": 0.1959330443003577
+      },
+      {
+        "spec": "saturation",
+        "assumed_bounds": [
+          3.8095238095238093,
+          4.2
+        ],
+        "true_rate_range": [
+          4.0,
+          4.0
+        ],
+        "rate_bound_misspec_scale": 1.0,
+        "lower": 0.0,
+        "upper": 1.0,
+        "width_frac": 1.0,
+        "covered": true,
+        "status": "unidentified",
+        "truth": 0.5
+      },
+      {
+        "spec": "dropout",
+        "assumed_bounds": [
+          0.9523809523809523,
+          1.05
+        ],
+        "true_rate_range": [
+          1.0,
+          1.0
+        ],
+        "rate_bound_misspec_scale": 1.0,
+        "lower": 0.0,
+        "upper": 0.875,
+        "width_frac": 0.875,
+        "covered": true,
+        "status": "partially_identified",
+        "truth": 0.5
+      },
+      {
+        "spec": "silencing",
+        "assumed_bounds": [
+          0.9523809523809523,
+          1.05
+        ],
+        "true_rate_range": [
+          1.0,
+          1.0
+        ],
+        "rate_bound_misspec_scale": 1.0,
+        "lower": 0.125,
+        "upper": 0.875,
+        "width_frac": 0.75,
+        "covered": true,
+        "status": "partially_identified",
+        "truth": 0.5
+      },
+      {
+        "spec": "topology_error",
+        "assumed_bounds": [
+          0.9523809523809523,
+          1.05
+        ],
+        "true_rate_range": [
+          1.0,
+          1.0
+        ],
+        "rate_bound_misspec_scale": 1.0,
+        "lower": 0.0,
+        "upper": 0.75,
+        "width_frac": 0.75,
+        "covered": true,
+        "status": "partially_identified",
+        "truth": 0.5
+      },
+      {
+        "spec": "rate_bound_misspec",
+        "assumed_bounds": [
+          0.8283747941845884,
+          0.8366585421264343
+        ],
+        "true_rate_range": [
+          0.43489676694690893,
+          1.517468592448603
+        ],
+        "rate_bound_misspec_scale": 0.5,
+        "lower": 0.0,
+        "upper": 0.75,
+        "width_frac": 0.75,
+        "covered": true,
+        "status": "partially_identified",
+        "truth": 0.5
+      }
+    ]
+  },
+  "fig4": {
+    "split": {
+      "calib_sites": [
+        4,
+        5,
+        6,
+        14,
+        16,
+        17,
+        18,
+        19,
+        21,
+        23,
+        30,
+        31,
+        34,
+        35,
+        40,
+        41,
+        42,
+        43,
+        48,
+        49,
+        50,
+        53,
+        54,
+        56
+      ],
+      "analysis_sites": [
+        0,
+        1,
+        2,
+        3,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        15,
+        20,
+        22,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        32,
+        33,
+        36,
+        37,
+        38,
+        39,
+        44,
+        45,
+        46,
+        47,
+        51,
+        52,
+        55,
+        57,
+        58,
+        59
+      ],
+      "seed": 99,
+      "locked_before_headline": true,
+      "note": "locked before headline"
+    },
+    "transferred_bounds": [
+      0.26152915677434624,
+      15.19706161372907
+    ],
+    "headline": [
+      {
+        "target": "age:A",
+        "lower": 0.3333333333333333,
+        "upper": 0.7916666666666666,
+        "mle": 0.625,
+        "status": "partially_identified",
+        "width_frac": 0.4583333333333333
+      },
+      {
+        "target": "age:B",
+        "lower": 0.0,
+        "upper": 0.625,
+        "mle": 0.3333333333333333,
+        "status": "partially_identified",
+        "width_frac": 0.625
+      },
+      {
+        "target": "branch:root->A",
+        "lower": 0.3333333333333333,
+        "upper": 0.7916666666666666,
+        "mle": 0.625,
+        "status": "partially_identified",
+        "width_frac": 0.4583333333333333
+      },
+      {
+        "target": "order_gap:A,B",
+        "lower": -0.7083333333333334,
+        "upper": 0.125,
+        "mle": -0.2916666666666667,
+        "status": "partially_identified",
+        "width_frac": 0.8333333333333334
+      }
+    ],
+    "sensitivity": [
+      {
+        "bound_factor": 1.0,
+        "lo": 7.729295385251708,
+        "hi": 7.729295385251708,
+        "lower": 0.9500000000000001,
+        "upper": 0.9500000000000001,
+        "width_frac": 0.0,
+        "status": "point_identified"
+      },
+      {
+        "bound_factor": 1.5,
+        "lo": 5.152863590167805,
+        "hi": 11.593943077877562,
+        "lower": 0.8500000000000001,
+        "upper": 0.9500000000000001,
+        "width_frac": 0.09999999999999998,
+        "status": "partially_identified"
+      },
+      {
+        "bound_factor": 2.0,
+        "lo": 3.864647692625854,
+        "hi": 15.458590770503417,
+        "lower": 0.8500000000000001,
+        "upper": 0.9500000000000001,
+        "width_frac": 0.09999999999999998,
+        "status": "partially_identified"
+      },
+      {
+        "bound_factor": 3.0,
+        "lo": 2.5764317950839026,
+        "hi": 23.187886155755123,
+        "lower": 0.75,
+        "upper": 0.9,
+        "width_frac": 0.15000000000000002,
+        "status": "partially_identified"
+      },
+      {
+        "bound_factor": 5.0,
+        "lo": 1.5458590770503418,
+        "hi": 38.64647692625854,
+        "lower": 0.6000000000000001,
+        "upper": 0.8500000000000001,
+        "width_frac": 0.25,
+        "status": "partially_identified"
+      }
+    ],
+    "true_age_A": 0.5
+  },
+  "fig5": {
+    "ensemble": [
+      {
+        "target": "age:A",
+        "union_lower": 0.0,
+        "union_upper": 0.7142857142857142,
+        "robust_order": false,
+        "per_topology": [
+          {
+            "topology": "identity",
+            "lower": 0.21428571428571427,
+            "upper": 0.7142857142857142,
+            "status": "partially_identified"
+          },
+          {
+            "topology": "swap:L0<->L2",
+            "lower": 0.0,
+            "upper": 0.14285714285714285,
+            "status": "partially_identified"
+          },
+          {
+            "topology": "swap:L1<->L3",
+            "lower": 0.0,
+            "upper": 0.2857142857142857,
+            "status": "partially_identified"
+          },
+          {
+            "topology": "swap:L0<->L3",
+            "lower": 0.0,
+            "upper": 0.21428571428571427,
+            "status": "partially_identified"
+          }
+        ]
+      },
+      {
+        "target": "order_gap:A,B",
+        "union_lower": -0.4285714285714285,
+        "union_upper": 0.42857142857142855,
+        "robust_order": false,
+        "per_topology": [
+          {
+            "topology": "identity",
+            "lower": -0.4285714285714285,
+            "upper": 0.3571428571428571,
+            "status": "partially_identified"
+          },
+          {
+            "topology": "swap:L0<->L2",
+            "lower": 0.0,
+            "upper": 0.42857142857142855,
+            "status": "partially_identified"
+          },
+          {
+            "topology": "swap:L1<->L3",
+            "lower": -0.21428571428571427,
+            "upper": 0.14285714285714285,
+            "status": "partially_identified"
+          },
+          {
+            "topology": "swap:L0<->L3",
+            "lower": -0.14285714285714285,
+            "upper": 0.21428571428571427,
+            "status": "partially_identified"
+          }
+        ]
+      }
+    ],
+    "second_architecture": {
+      "lower": 0.0,
+      "upper": 0.6428571428571428,
+      "status": "partially_identified",
+      "width_frac": 0.6428571428571428
+    }
+  },
+  "fig6": [
+    {
+      "n_sites": 30,
+      "heterogeneity": 0.0,
+      "confirm_frac": 0.3333333333333333,
+      "cover_frac": 0.6666666666666666
+    },
+    {
+      "n_sites": 30,
+      "heterogeneity": 0.2,
+      "confirm_frac": 0.3333333333333333,
+      "cover_frac": 0.6666666666666666
+    },
+    {
+      "n_sites": 30,
+      "heterogeneity": 0.4,
+      "confirm_frac": 0.0,
+      "cover_frac": 0.6666666666666666
+    },
+    {
+      "n_sites": 30,
+      "heterogeneity": 0.6,
+      "confirm_frac": 0.3333333333333333,
+      "cover_frac": 1.0
+    },
+    {
+      "n_sites": 30,
+      "heterogeneity": 0.8,
+      "confirm_frac": 0.3333333333333333,
+      "cover_frac": 1.0
+    },
+    {
+      "n_sites": 30,
+      "heterogeneity": 1.0,
+      "confirm_frac": 0.0,
+      "cover_frac": 1.0
+    },
+    {
+      "n_sites": 60,
+      "heterogeneity": 0.0,
+      "confirm_frac": 0.3333333333333333,
+      "cover_frac": 1.0
+    },
+    {
+      "n_sites": 60,
+      "heterogeneity": 0.2,
+      "confirm_frac": 0.3333333333333333,
+      "cover_frac": 1.0
+    },
+    {
+      "n_sites": 60,
+      "heterogeneity": 0.4,
+      "confirm_frac": 0.0,
+      "cover_frac": 1.0
+    },
+    {
+      "n_sites": 60,
+      "heterogeneity": 0.6,
+      "confirm_frac": 0.0,
+      "cover_frac": 0.6666666666666666
+    },
+    {
+      "n_sites": 60,
+      "heterogeneity": 0.8,
+      "confirm_frac": 0.0,
+      "cover_frac": 0.6666666666666666
+    },
+    {
+      "n_sites": 60,
+      "heterogeneity": 1.0,
+      "confirm_frac": 0.0,
+      "cover_frac": 1.0
+    },
+    {
+      "n_sites": 120,
+      "heterogeneity": 0.0,
+      "confirm_frac": 0.3333333333333333,
+      "cover_frac": 1.0
+    },
+    {
+      "n_sites": 120,
+      "heterogeneity": 0.2,
+      "confirm_frac": 0.3333333333333333,
+      "cover_frac": 1.0
+    },
+    {
+      "n_sites": 120,
+      "heterogeneity": 0.4,
+      "confirm_frac": 0.3333333333333333,
+      "cover_frac": 1.0
+    },
+    {
+      "n_sites": 120,
+      "heterogeneity": 0.6,
+      "confirm_frac": 0.3333333333333333,
+      "cover_frac": 1.0
+    },
+    {
+      "n_sites": 120,
+      "heterogeneity": 0.8,
+      "confirm_frac": 0.3333333333333333,
+      "cover_frac": 1.0
+    },
+    {
+      "n_sites": 120,
+      "heterogeneity": 1.0,
+      "confirm_frac": 0.3333333333333333,
+      "cover_frac": 1.0
+    },
+    {
+      "n_sites": 240,
+      "heterogeneity": 0.0,
+      "confirm_frac": 1.0,
+      "cover_frac": 1.0
+    },
+    {
+      "n_sites": 240,
+      "heterogeneity": 0.2,
+      "confirm_frac": 0.6666666666666666,
+      "cover_frac": 0.6666666666666666
+    },
+    {
+      "n_sites": 240,
+      "heterogeneity": 0.4,
+      "confirm_frac": 0.6666666666666666,
+      "cover_frac": 1.0
+    },
+    {
+      "n_sites": 240,
+      "heterogeneity": 0.6,
+      "confirm_frac": 0.6666666666666666,
+      "cover_frac": 0.6666666666666666
+    },
+    {
+      "n_sites": 240,
+      "heterogeneity": 0.8,
+      "confirm_frac": 0.6666666666666666,
+      "cover_frac": 0.6666666666666666
+    },
+    {
+      "n_sites": 240,
+      "heterogeneity": 1.0,
+      "confirm_frac": 0.3333333333333333,
+      "cover_frac": 0.3333333333333333
+    }
+  ],
+  "fig7": [
+    {
+      "n_sites": 8,
+      "heterogeneity": 0.0,
+      "mean_width_frac": 0.641,
+      "coverage": 0.75,
+      "recommended": true
+    },
+    {
+      "n_sites": 8,
+      "heterogeneity": 0.25,
+      "mean_width_frac": 0.688,
+      "coverage": 0.88,
+      "recommended": true
+    },
+    {
+      "n_sites": 8,
+      "heterogeneity": 0.5,
+      "mean_width_frac": 0.812,
+      "coverage": 1.0,
+      "recommended": false
+    },
+    {
+      "n_sites": 8,
+      "heterogeneity": 0.75,
+      "mean_width_frac": 0.719,
+      "coverage": 0.88,
+      "recommended": true
+    },
+    {
+      "n_sites": 16,
+      "heterogeneity": 0.0,
+      "mean_width_frac": 0.641,
+      "coverage": 1.0,
+      "recommended": true
+    },
+    {
+      "n_sites": 16,
+      "heterogeneity": 0.25,
+      "mean_width_frac": 0.609,
+      "coverage": 0.88,
+      "recommended": true
+    },
+    {
+      "n_sites": 16,
+      "heterogeneity": 0.5,
+      "mean_width_frac": 0.562,
+      "coverage": 0.88,
+      "recommended": true
+    },
+    {
+      "n_sites": 16,
+      "heterogeneity": 0.75,
+      "mean_width_frac": 0.688,
+      "coverage": 1.0,
+      "recommended": true
+    },
+    {
+      "n_sites": 32,
+      "heterogeneity": 0.0,
+      "mean_width_frac": 0.562,
+      "coverage": 1.0,
+      "recommended": true
+    },
+    {
+      "n_sites": 32,
+      "heterogeneity": 0.25,
+      "mean_width_frac": 0.531,
+      "coverage": 1.0,
+      "recommended": true
+    },
+    {
+      "n_sites": 32,
+      "heterogeneity": 0.5,
+      "mean_width_frac": 0.5,
+      "coverage": 1.0,
+      "recommended": true
+    },
+    {
+      "n_sites": 32,
+      "heterogeneity": 0.75,
+      "mean_width_frac": 0.438,
+      "coverage": 0.88,
+      "recommended": true
+    },
+    {
+      "n_sites": 48,
+      "heterogeneity": 0.0,
+      "mean_width_frac": 0.438,
+      "coverage": 0.88,
+      "recommended": true
+    },
+    {
+      "n_sites": 48,
+      "heterogeneity": 0.25,
+      "mean_width_frac": 0.438,
+      "coverage": 1.0,
+      "recommended": true
+    },
+    {
+      "n_sites": 48,
+      "heterogeneity": 0.5,
+      "mean_width_frac": 0.453,
+      "coverage": 1.0,
+      "recommended": true
+    },
+    {
+      "n_sites": 48,
+      "heterogeneity": 0.75,
+      "mean_width_frac": 0.375,
+      "coverage": 0.88,
+      "recommended": true
+    }
+  ],
+  "conclusion_stress": {
+    "claim": "B branches after A (age(B) - age(A) > 0)",
+    "claim_true_in_simulation": true,
+    "tight_per_site_boxes": {
+      "interval_A": [
+        0.0,
+        0.1875
+      ],
+      "interval_B": [
+        0.0,
+        0.25
+      ],
+      "order_gap": {
+        "lower": -0.1875,
+        "upper": 0.25
+      },
+      "verdict": "unresolved"
+    },
+    "wide_transferred_bounds": {
+      "interval_A": [
+        0.0,
+        0.1875
+      ],
+      "interval_B": [
+        0.0,
+        0.3125
+      ],
+      "order_gap": {
+        "lower": -0.1875,
+        "upper": 0.3125
+      },
+      "verdict": "unresolved"
+    },
+    "note": "Tight per-site calibration buys absolute position; wide transferred bounds lose the 3h-style separation claim."
+  },
+  "data": {
+    "audit": {
+      "name": "ConvexML",
+      "accession_ok": true,
+      "sha256": "c92b30eccf293b3ca8e29410a15c3336a86d88621272f019da26fb96cd95e5a0",
+      "source_url": "https://doi.org/10.5061/dryad.qrfj6q5nz",
+      "recorder_architecture": "CRISPR/Cas9 irreversible (ConvexML default regime encoding)",
+      "n_targets_sites": 39,
+      "n_leaves": 400,
+      "n_edges": 799,
+      "experimental_duration": 1.0,
+      "replication_unit": "embryo_or_tree",
+      "pseudoreplication_guard": "Analyses treat each tree/embryo as one replicate; leaf cells are not independent biological replicates.",
+      "missingness": {
+        "n_leaves": 400,
+        "n_sites": 39,
+        "missing_frac": 0.2048076923076923,
+        "edited_frac_observed": 0.5177750906892382,
+        "saturation_proxy": 0.41173076923076923
+      },
+      "topology_provenance": "simulated",
+      "ultrametric": true,
+      "leaf_age_range": [
+        1.0,
+        1.0
+      ],
+      "calibration_holdout_separated": false,
+      "checklist": {
+        "verify_accession_version_integrity": true,
+        "record_architecture_targets_encoding_duration": true,
+        "define_replication_unit": true,
+        "quantify_missingness_dropout_saturation": true,
+        "document_topology_provenance": true,
+        "separate_calibration_holdout": false,
+        "deterministic_preprocessing_checksums": true
+      }
+    },
+    "download": {
+      "ok": true,
+      "doi": "10.5061/dryad.qrfj6q5nz",
+      "files": [
+        {
+          "name": "trees.tgz",
+          "path": "/Users/farasatdhedhi/Downloads/bo1 research/data_store/convexml/convexml_dryad_trees.tgz",
+          "sha256": "b2339df33a83fe1c3c3860cf6a54215cd58a3c28315effdb0a4ea79b78f25fd9"
+        },
+        {
+          "name": "README.md",
+          "path": "/Users/farasatdhedhi/Downloads/bo1 research/data_store/convexml/convexml_dryad_readme.md",
+          "sha256": "755b3a7efde956dc95a04048b98ffa07122731b23a4202a4f40043acc12ed78f"
+        }
+      ],
+      "note": "Official Dryad bundle downloaded; extract trees.tgz under extracted/."
+    },
+    "standin": false
+  }
+}

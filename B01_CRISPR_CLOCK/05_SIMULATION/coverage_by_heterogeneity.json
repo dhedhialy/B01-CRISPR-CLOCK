@@ -1,0 +1,37 @@
+[
+  {
+    "heterogeneity": 0.0,
+    "coverage": 0.95,
+    "mean_width_frac": 0.5464285714285714,
+    "false_id": 0.0,
+    "abstain": 0.0
+  },
+  {
+    "heterogeneity": 0.25,
+    "coverage": 0.9,
+    "mean_width_frac": 0.5178571428571428,
+    "false_id": 0.0,
+    "abstain": 0.0
+  },
+  {
+    "heterogeneity": 0.5,
+    "coverage": 0.85,
+    "mean_width_frac": 0.46071428571428574,
+    "false_id": 0.0,
+    "abstain": 0.0
+  },
+  {
+    "heterogeneity": 0.75,
+    "coverage": 0.7,
+    "mean_width_frac": 0.43571428571428567,
+    "false_id": 0.0,
+    "abstain": 0.0
+  },
+  {
+    "heterogeneity": 1.0,
+    "coverage": 1.0,
+    "mean_width_frac": 0.4678571428571428,
+    "false_id": 0.0,
+    "abstain": 0.0
+  }
+]

@@ -1,0 +1,106 @@
+{
+  "dataset": "convexml_official_default",
+  "dryad_doi": "10.5061/dryad.qrfj6q5nz",
+  "note": "Deposit is a Cassiopeia-simulated benchmark; newick branch lengths are known truth.",
+  "n_leaves": 400,
+  "n_leaves_certified": 64,
+  "n_sites": 39,
+  "transferred_bounds": [
+    0.1756506700337557,
+    2.1033856584734045
+  ],
+  "targets": 9,
+  "coverage_frac": 0.1111111111111111,
+  "rows": [
+    {
+      "target": "age:N1",
+      "true_age": 0.1139275632466313,
+      "lower": 0.1128847056374983,
+      "upper": 0.2367354470223285,
+      "mle": 0.1128847056374983,
+      "status": "partially_identified",
+      "covered": true,
+      "width_frac": 0.12385074138483018
+    },
+    {
+      "target": "age:N3",
+      "true_age": 0.24176326346618385,
+      "lower": 0.2779554298579822,
+      "upper": 0.4240034589651825,
+      "mle": 0.28658279346472226,
+      "status": "partially_identified",
+      "covered": false,
+      "width_frac": 0.14604802910720027
+    },
+    {
+      "target": "age:N35",
+      "true_age": 0.33859933037791967,
+      "lower": 0.3602279958801932,
+      "upper": 0.6,
+      "mle": 0.3602279958801932,
+      "status": "partially_identified",
+      "covered": false,
+      "width_frac": 0.23977200411980676
+    },
+    {
+      "target": "age:N51",
+      "true_age": 0.5222260122505049,
+      "lower": 0.7424361449600825,
+      "upper": 0.7671752435496245,
+      "mle": 0.7424361449600825,
+      "status": "partially_identified",
+      "covered": false,
+      "width_frac": 0.02473909858954204
+    },
+    {
+      "target": "age:N119",
+      "true_age": 0.6419254068291664,
+      "lower": 0.7817554939410696,
+      "upper": 0.8262089036208755,
+      "mle": 0.8254400331895724,
+      "status": "partially_identified",
+      "covered": false,
+      "width_frac": 0.04445340967980593
+    },
+    {
+      "target": "age:N73",
+      "true_age": 0.6912186688922466,
+      "lower": 0.8732122268893959,
+      "upper": 0.8742365867643583,
+      "mle": 0.8732122268893959,
+      "status": "partially_identified",
+      "covered": false,
+      "width_frac": 0.0010243598749624105
+    },
+    {
+      "target": "age:N209",
+      "true_age": 0.7734050988019898,
+      "lower": 0.8918299930649136,
+      "upper": 0.8921889427798526,
+      "mle": 0.8918299930649136,
+      "status": "partially_identified",
+      "covered": false,
+      "width_frac": 0.0003589497149389942
+    },
+    {
+      "target": "age:N78",
+      "true_age": 0.840257890432341,
+      "lower": 0.8732122268893959,
+      "upper": 0.8732122268893959,
+      "mle": 0.8732122268893959,
+      "status": "point_identified",
+      "covered": false,
+      "width_frac": 0.0
+    },
+    {
+      "target": "age:N312",
+      "true_age": 0.890121304316242,
+      "lower": 0.7288417954835384,
+      "upper": 0.7388341172924021,
+      "mle": 0.7373084959013754,
+      "status": "partially_identified",
+      "covered": false,
+      "width_frac": 0.009992321808863669
+    }
+  ]
+}

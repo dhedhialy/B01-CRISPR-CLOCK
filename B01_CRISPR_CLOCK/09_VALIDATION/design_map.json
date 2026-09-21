@@ -1,0 +1,114 @@
+[
+  {
+    "n_sites": 8,
+    "heterogeneity": 0.0,
+    "mean_width_frac": 0.641,
+    "coverage": 0.75,
+    "recommended": true
+  },
+  {
+    "n_sites": 8,
+    "heterogeneity": 0.25,
+    "mean_width_frac": 0.688,
+    "coverage": 0.88,
+    "recommended": true
+  },
+  {
+    "n_sites": 8,
+    "heterogeneity": 0.5,
+    "mean_width_frac": 0.812,
+    "coverage": 1.0,
+    "recommended": false
+  },
+  {
+    "n_sites": 8,
+    "heterogeneity": 0.75,
+    "mean_width_frac": 0.719,
+    "coverage": 0.88,
+    "recommended": true
+  },
+  {
+    "n_sites": 16,
+    "heterogeneity": 0.0,
+    "mean_width_frac": 0.641,
+    "coverage": 1.0,
+    "recommended": true
+  },
+  {
+    "n_sites": 16,
+    "heterogeneity": 0.25,
+    "mean_width_frac": 0.609,
+    "coverage": 0.88,
+    "recommended": true
+  },
+  {
+    "n_sites": 16,
+    "heterogeneity": 0.5,
+    "mean_width_frac": 0.562,
+    "coverage": 0.88,
+    "recommended": true
+  },
+  {
+    "n_sites": 16,
+    "heterogeneity": 0.75,
+    "mean_width_frac": 0.688,
+    "coverage": 1.0,
+    "recommended": true
+  },
+  {
+    "n_sites": 32,
+    "heterogeneity": 0.0,
+    "mean_width_frac": 0.562,
+    "coverage": 1.0,
+    "recommended": true
+  },
+  {
+    "n_sites": 32,
+    "heterogeneity": 0.25,
+    "mean_width_frac": 0.531,
+    "coverage": 1.0,
+    "recommended": true
+  },
+  {
+    "n_sites": 32,
+    "heterogeneity": 0.5,
+    "mean_width_frac": 0.5,
+    "coverage": 1.0,
+    "recommended": true
+  },
+  {
+    "n_sites": 32,
+    "heterogeneity": 0.75,
+    "mean_width_frac": 0.438,
+    "coverage": 0.88,
+    "recommended": true
+  },
+  {
+    "n_sites": 48,
+    "heterogeneity": 0.0,
+    "mean_width_frac": 0.438,
+    "coverage": 0.88,
+    "recommended": true
+  },
+  {
+    "n_sites": 48,
+    "heterogeneity": 0.25,
+    "mean_width_frac": 0.438,
+    "coverage": 1.0,
+    "recommended": true
+  },
+  {
+    "n_sites": 48,
+    "heterogeneity": 0.5,
+    "mean_width_frac": 0.453,
+    "coverage": 1.0,
+    "recommended": true
+  },
+  {
+    "n_sites": 48,
+    "heterogeneity": 0.75,
+    "mean_width_frac": 0.375,
+    "coverage": 0.88,
+    "recommended": true
+  }
+]

@@ -1,0 +1,200 @@
+[
+  {
+    "spec": "baseline",
+    "assumed_bounds": [
+      0.9523809523809523,
+      1.05
+    ],
+    "true_rate_range": [
+      1.0,
+      1.0
+    ],
+    "rate_bound_misspec_scale": 1.0,
+    "lower": 0.25,
+    "upper": 0.875,
+    "width_frac": 0.625,
+    "covered": true,
+    "status": "partially_identified",
+    "truth": 0.5
+  },
+  {
+    "spec": "site_het_mild",
+    "assumed_bounds": [
+      0.5221672960511929,
+      2.111131846859268
+    ],
+    "true_rate_range": [
+      0.5482756608537526,
+      2.0106017589135883
+    ],
+    "rate_bound_misspec_scale": 1.0,
+    "lower": 0.0,
+    "upper": 0.75,
+    "width_frac": 0.75,
+    "covered": true,
+    "status": "partially_identified",
+    "truth": 0.5
+  },
+  {
+    "spec": "site_het_strong",
+    "assumed_bounds": [
+      0.04421401538988014,
+      6.309328853844115
+    ],
+    "true_rate_range": [
+      0.046424716159374144,
+      6.008884622708681
+    ],
+    "rate_bound_misspec_scale": 1.0,
+    "lower": 0.0,
+    "upper": 0.75,
+    "width_frac": 0.75,
+    "covered": true,
+    "status": "partially_identified",
+    "truth": 0.5
+  },
+  {
+    "spec": "branch_het",
+    "assumed_bounds": [
+      0.9523809523809523,
+      1.05
+    ],
+    "true_rate_range": [
+      1.0,
+      1.0
+    ],
+    "rate_bound_misspec_scale": 1.0,
+    "lower": 0.0,
+    "upper": 0.75,
+    "width_frac": 0.75,
+    "covered": true,
+    "status": "partially_identified",
+    "truth": 0.5
+  },
+  {
+    "spec": "replicate_shift",
+    "assumed_bounds": [
+      1.9047619047619047,
+      2.1
+    ],
+    "true_rate_range": [
+      2.0,
+      2.0
+    ],
+    "rate_bound_misspec_scale": 1.0,
+    "lower": 0.0,
+    "upper": 0.625,
+    "width_frac": 0.625,
+    "covered": true,
+    "status": "partially_identified",
+    "truth": 0.5
+  },
+  {
+    "spec": "stochastic_division",
+    "assumed_bounds": [
+      0.9523809523809523,
+      1.05
+    ],
+    "true_rate_range": [
+      1.0,
+      1.0
+    ],
+    "rate_bound_misspec_scale": 1.0,
+    "lower": 0.0,
+    "upper": 0.25,
+    "width_frac": 0.25,
+    "covered": true,
+    "status": "partially_identified",
+    "truth": 0.1959330443003577
+  },
+  {
+    "spec": "saturation",
+    "assumed_bounds": [
+      3.8095238095238093,
+      4.2
+    ],
+    "true_rate_range": [
+      4.0,
+      4.0
+    ],
+    "rate_bound_misspec_scale": 1.0,
+    "lower": 0.0,
+    "upper": 1.0,
+    "width_frac": 1.0,
+    "covered": true,
+    "status": "unidentified",
+    "truth": 0.5
+  },
+  {
+    "spec": "dropout",
+    "assumed_bounds": [
+      0.9523809523809523,
+      1.05
+    ],
+    "true_rate_range": [
+      1.0,
+      1.0
+    ],
+    "rate_bound_misspec_scale": 1.0,
+    "lower": 0.0,
+    "upper": 0.875,
+    "width_frac": 0.875,
+    "covered": true,
+    "status": "partially_identified",
+    "truth": 0.5
+  },
+  {
+    "spec": "silencing",
+    "assumed_bounds": [
+      0.9523809523809523,
+      1.05
+    ],
+    "true_rate_range": [
+      1.0,
+      1.0
+    ],
+    "rate_bound_misspec_scale": 1.0,
+    "lower": 0.125,
+    "upper": 0.875,
+    "width_frac": 0.75,
+    "covered": true,
+    "status": "partially_identified",
+    "truth": 0.5
+  },
+  {
+    "spec": "topology_error",
+    "assumed_bounds": [
+      0.9523809523809523,
+      1.05
+    ],
+    "true_rate_range": [
+      1.0,
+      1.0
+    ],
+    "rate_bound_misspec_scale": 1.0,
+    "lower": 0.0,
+    "upper": 0.75,
+    "width_frac": 0.75,
+    "covered": true,
+    "status": "partially_identified",
+    "truth": 0.5
+  },
+  {
+    "spec": "rate_bound_misspec",
+    "assumed_bounds": [
+      0.8283747941845884,
+      0.8366585421264343
+    ],
+    "true_rate_range": [
+      0.43489676694690893,
+      1.517468592448603
+    ],
+    "rate_bound_misspec_scale": 0.5,
+    "lower": 0.0,
+    "upper": 0.75,
+    "width_frac": 0.75,
+    "covered": true,
+    "status": "partially_identified",
+    "truth": 0.5
+  }
+]

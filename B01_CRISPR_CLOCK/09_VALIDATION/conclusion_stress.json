@@ -1,0 +1,35 @@
+{
+  "claim": "B branches after A (age(B) - age(A) > 0)",
+  "claim_true_in_simulation": true,
+  "tight_per_site_boxes": {
+    "interval_A": [
+      0.0,
+      0.1875
+    ],
+    "interval_B": [
+      0.0,
+      0.25
+    ],
+    "order_gap": {
+      "lower": -0.1875,
+      "upper": 0.25
+    },
+    "verdict": "unresolved"
+  },
+  "wide_transferred_bounds": {
+    "interval_A": [
+      0.0,
+      0.1875
+    ],
+    "interval_B": [
+      0.0,
+      0.3125
+    ],
+    "order_gap": {
+      "lower": -0.1875,
+      "upper": 0.3125
+    },
+    "verdict": "unresolved"
+  },
+  "note": "Tight per-site calibration buys absolute position; wide transferred bounds lose the 3h-style separation claim."
+}

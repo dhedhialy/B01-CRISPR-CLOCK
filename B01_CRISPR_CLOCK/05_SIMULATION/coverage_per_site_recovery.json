@@ -1,0 +1,23 @@
+[
+  {
+    "heterogeneity": 0.5,
+    "coverage": 1.0,
+    "mean_width_frac": 0.75,
+    "false_id": 0.0,
+    "abstain": 0.0
+  },
+  {
+    "heterogeneity": 0.75,
+    "coverage": 0.75,
+    "mean_width_frac": 0.609375,
+    "false_id": 0.0,
+    "abstain": 0.0
+  },
+  {
+    "heterogeneity": 1.0,
+    "coverage": 0.75,
+    "mean_width_frac": 0.71875,
+    "false_id": 0.0,
+    "abstain": 0.125
+  }
+]

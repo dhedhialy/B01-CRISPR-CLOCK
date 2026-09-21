@@ -1,0 +1,120 @@
+{
+  "exact": [
+    {
+      "target": "age:A",
+      "lower": 0.35000000000000003,
+      "upper": 0.8250000000000001,
+      "mle": 0.65,
+      "status": "partially_identified",
+      "l_max": -96.15564137791937,
+      "threshold": -98.07637078826643,
+      "diagnostics": {
+        "confidence": 0.95,
+        "cutoff": 1.9207294103470602,
+        "n_feasible_grid": 278,
+        "n_grid": 1681,
+        "free_internals": [
+          "A",
+          "B"
+        ],
+        "total_time": 1.0,
+        "rate_mode": "global",
+        "certificate": "Profile LR set {\u03b8: 2(Lmax-L(\u03b8)) \u2264 \u03c7\u00b2_{1,0.95}} with rates profiled in given bounds (mode=global); bound attained on grid."
+      },
+      "profile_grid": null,
+      "profile_ll": null
+    },
+    {
+      "target": "order_gap:A,B",
+      "lower": -0.2750000000000001,
+      "upper": 0.37500000000000006,
+      "mle": 0.025000000000000022,
+      "status": "partially_identified",
+      "l_max": -96.15564137791937,
+      "threshold": -98.07637078826643,
+      "diagnostics": {
+        "confidence": 0.95,
+        "cutoff": 1.9207294103470602,
+        "n_feasible_grid": 278,
+        "n_grid": 1681,
+        "free_internals": [
+          "A",
+          "B"
+        ],
+        "total_time": 1.0,
+        "rate_mode": "global",
+        "certificate": "Profile LR set {\u03b8: 2(Lmax-L(\u03b8)) \u2264 \u03c7\u00b2_{1,0.95}} with rates profiled in given bounds (mode=global); bound attained on grid."
+      },
+      "profile_grid": null,
+      "profile_ll": null
+    }
+  ],
+  "ensemble": [
+    {
+      "target": "age:A",
+      "union_lower": 0.0,
+      "union_upper": 0.7916666666666666,
+      "robust_order": false,
+      "per_topology": [
+        {
+          "topology": "identity",
+          "lower": 0.375,
+          "upper": 0.7916666666666666,
+          "status": "partially_identified"
+        },
+        {
+          "topology": "swap:L0<->L2",
+          "lower": 0.0,
+          "upper": 0.25,
+          "status": "partially_identified"
+        },
+        {
+          "topology": "swap:L1<->L3",
+          "lower": 0.0,
+          "upper": 0.20833333333333331,
+          "status": "partially_identified"
+        },
+        {
+          "topology": "swap:L0<->L3",
+          "lower": 0.0,
+          "upper": 0.29166666666666663,
+          "status": "partially_identified"
+        }
+      ],
+      "note": "Union of profile LR sets across audited topologies; robust_order means every topology agrees on sign of the gap."
+    },
+    {
+      "target": "order_gap:A,B",
+      "union_lower": -0.2916666666666667,
+      "union_upper": 0.375,
+      "robust_order": false,
+      "per_topology": [
+        {
+          "topology": "identity",
+          "lower": -0.2916666666666667,
+          "upper": 0.375,
+          "status": "partially_identified"
+        },
+        {
+          "topology": "swap:L0<->L2",
+          "lower": -0.25,
+          "upper": 0.16666666666666666,
+          "status": "partially_identified"
+        },
+        {
+          "topology": "swap:L1<->L3",
+          "lower": -0.125,
+          "upper": 0.29166666666666663,
+          "status": "partially_identified"
+        },
+        {
+          "topology": "swap:L0<->L3",
+          "lower": -0.16666666666666666,
+          "upper": 0.29166666666666663,
+          "status": "partially_identified"
+        }
+      ],
+      "note": "Union of profile LR sets across audited topologies; robust_order means every topology agrees on sign of the gap."
+    }
+  ]
+}

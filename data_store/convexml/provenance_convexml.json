@@ -1,0 +1,23 @@
+{
+  "name": "convexml_protocol_default",
+  "source_url": "https://doi.org/10.5061/dryad.qrfj6q5nz",
+  "accession": "10.5061/dryad.qrfj6q5nz",
+  "local_path": "/Users/farasatdhedhi/Downloads/bo1 research/data_store/convexml/extracted/paper_ble_trees/number_of_cassettes/13/tree_0_character_matrix.csv",
+  "sha256": "c92b30eccf293b3ca8e29410a15c3336a86d88621272f019da26fb96cd95e5a0",
+  "downloaded_at": "2026-09-20T21:49:17.880962+00:00",
+  "recorder_architecture": "CRISPR/Cas9 irreversible (ConvexML default regime encoding)",
+  "n_targets": 39,
+  "experimental_duration": 1.0,
+  "topology_provenance": "simulated",
+  "notes": [
+    "Loaded from official Dryad bundle (trees.tgz, DOI 10.5061/dryad.qrfj6q5nz).",
+    "Regime: number_of_cassettes/13 (default: 13 barcodes x 3 sites, 100 states, 20% missing)."
+  ],
+  "extra": {
+    "standin": false,
+    "protocol_replication": false,
+    "official_dryad": true,
+    "rep": 0,
+    "base": "/Users/farasatdhedhi/Downloads/bo1 research/data_store/convexml/extracted/paper_ble_trees/number_of_cassettes/13"
+  }
+}

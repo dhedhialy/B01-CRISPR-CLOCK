@@ -1,0 +1,169 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.qrfj6q5nz"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.qrfj6q5nz/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/395804"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.qrfj6q5nz/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.qrfj6q5nz",
+  "id": 122662,
+  "storageSize": 403224380,
+  "relatedPublicationISSN": "1063-5157",
+  "title": "ConvexML: Scalable and accurate inference of single-cell chronograms from CRISPR/Cas9 lineage tracing data",
+  "authors": [
+    {
+      "firstName": "Sebastian",
+      "lastName": "Prillo",
+      "email": "sprillo@berkeley.edu",
+      "affiliation": "University of California, Berkeley",
+      "affiliationROR": "https://ror.org/01an7q238",
+      "affiliations": [
+        {
+          "name": "University of California, Berkeley",
+          "ror_id": "https://ror.org/01an7q238"
+        }
+      ],
+      "orcid": "0000-0002-2427-8627",
+      "order": 0
+    },
+    {
+      "firstName": "Akshay",
+      "lastName": "Ravoor",
+      "email": "",
+      "affiliation": "University of California, Berkeley",
+      "affiliationROR": "https://ror.org/01an7q238",
+      "affiliations": [
+        {
+          "name": "University of California, Berkeley",
+          "ror_id": "https://ror.org/01an7q238"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "firstName": "Nir",
+      "lastName": "Yosef",
+      "email": "",
+      "affiliation": "University of California, Berkeley",
+      "affiliationROR": "https://ror.org/01an7q238",
+      "affiliations": [
+        {
+          "name": "University of California, Berkeley",
+          "ror_id": "https://ror.org/01an7q238"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "firstName": "Yun",
+      "lastName": "Song",
+      "email": "yss@berkeley.edu",
+      "affiliation": "University of California, Berkeley",
+      "affiliationROR": "https://ror.org/01an7q238",
+      "affiliations": [
+        {
+          "name": "University of California, Berkeley",
+          "ror_id": "https://ror.org/01an7q238"
+        }
+      ],
+      "orcid": "0000-0002-0734-9868",
+      "order": 3
+    }
+  ],
+  "abstract": "<p>CRISPR/Cas9 gene editing technology has enabled lineage tracing for thousands of cells in vivo. However, most of the analysis of CRISPR/Cas9 lineage tracing data have so far been limited to the reconstruction of single-cell tree topologies, which depict lineage relationships between cells, but not the amount of time that has passed between ancestral cell states and the present. Time-resolved trees, known as chronograms, would allow one to study the evolutionary dynamics of cell populations at an unprecedented level of resolution. Indeed, time-resolved trees would reveal the timing of events on the tree, the relative \ufb01tness of subclones, and the dynamics underlying phenotypic changes in the cell population \u2013 among other important applications. In this work, we introduce the \ufb01rst scalable and accurate method to re\ufb01ne any given single-cell tree topology into a single-cell chronogram by estimating its branch lengths. To do this, we leverage a statistical model of CRISPR/Cas9 cutting with missing data, paired with a conservative version of maximum parsimony that reconstructs only the ancestral states which we are con\ufb01dent about. As part of our method, we propose a novel approach to represent and handle missing data \u2013 speci\ufb01cally, double-resection events \u2013 which greatly simpli\ufb01es and speeds up branch length estimation without compromising quality. All this leads to a convex maximum likelihood estimation (MLE) problem that can be readily solved in seconds with o\ufb00-the-shelf convex optimization solvers. To stabilize estimates in low-information regimes, we propose a simple penalized version of MLE using a minimum branch length and pseudocounts. We benchmark our method using simulations and show that it performs well on several tasks, outperforming more naive baselines. Our method, which we name 'ConvexML', is available through the cassiopeia open source Python package.</p>\n",
+  "funders": [
+    {
+      "organization": "National Human Genome Research Institute",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/00baak391",
+      "awardNumber": "R56-HG013117",
+      "awardDescription": "",
+      "order": 0
+    },
+    {
+      "organization": "European Research Council",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/0472cxd90",
+      "awardNumber": "101089213",
+      "awardDescription": "",
+      "order": 1
+    }
+  ],
+  "keywords": [
+    "Maximum likelihood estimation",
+    "parsimony",
+    "convex optimization",
+    "single-cell lineage tracing",
+    "branch length estimation"
+  ],
+  "fieldOfScience": "Biological sciences",
+  "methods": "<p>Trees and lineage tracing data were simulated as described in detail in our manuscript.</p>",
+  "relatedWorks": [
+    {
+      "relationship": "preprint",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1101/2023.12.03.569785"
+    },
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1093/sysbio/syaf054"
+    }
+  ],
+  "versionNumber": 4,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "files_changed",
+  "publicationDate": "2025-09-15",
+  "lastModificationDate": "2025-09-15",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.qrfj6q5nz",
+  "changedFields": [
+    "tenant",
+    "manuscript",
+    "authors",
+    [
+      {
+        "index": 0,
+        "email": "sprillo@berkeley.edu",
+        "orcid": "0000-0002-2427-8627"
+      },
+      {
+        "index": 3,
+        "orcid": "0000-0002-0734-9868"
+      }
+    ],
+    "abstract",
+    "related_identifiers",
+    [
+      {
+        "index": 1,
+        "id": "https://doi.org/10.1093/sysbio/syaf054",
+        "type": "primary_article",
+        "relation": "iscitedby"
+      }
+    ],
+    "data_files"
+  ],
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 37,
+    "downloads": 9,
+    "citations": 2
+  }
+}

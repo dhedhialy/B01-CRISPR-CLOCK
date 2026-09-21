@@ -1,0 +1,91 @@
+{
+  "canonical_draw13": {
+    "conditional_loo_coverage": 0.9365079365079365,
+    "conditional_mean_width": 0.31931734794143163,
+    "profile_coverage": 0.06349206349206349
+  },
+  "alt_draw42": {
+    "conditional_loo_coverage": 0.9523809523809523,
+    "conditional_mean_width": 0.3098103027009765,
+    "profile_coverage": 0.12698412698412698
+  },
+  "transfer_13->42": {
+    "coverage": 0.9523809523809523,
+    "mean_width": 0.328266195562341
+  },
+  "transfer_42->13": {
+    "coverage": 0.9047619047619048,
+    "mean_width": 0.3115292192801364
+  },
+  "canonical_panel_9_nodes_disjoint": {
+    "coverage": 1.0,
+    "mean_width": 0.28802641786743743,
+    "train_n_nodes": 54,
+    "panel_n_nodes": 9,
+    "rows": [
+      {
+        "node": "N1",
+        "mle": 0.1128847056374983,
+        "true": 0.1139275632466313,
+        "width": 0.0497372431156846,
+        "covered": true
+      },
+      {
+        "node": "N3",
+        "mle": 0.28658279346472226,
+        "true": 0.24176326346618385,
+        "width": 0.10810370411311054,
+        "covered": true
+      },
+      {
+        "node": "N35",
+        "mle": 0.3602279958801932,
+        "true": 0.33859933037791967,
+        "width": 0.11898570818518617,
+        "covered": true
+      },
+      {
+        "node": "N51",
+        "mle": 0.7424361449600825,
+        "true": 0.5222260122505049,
+        "width": 0.33887184857823194,
+        "covered": true
+      },
+      {
+        "node": "N119",
+        "mle": 0.8254400331895724,
+        "true": 0.6419254068291664,
+        "width": 0.47151642803722577,
+        "covered": true
+      },
+      {
+        "node": "N73",
+        "mle": 0.8732122268893959,
+        "true": 0.6912186688922466,
+        "width": 0.47151642803722577,
+        "covered": true
+      },
+      {
+        "node": "N209",
+        "mle": 0.8918299930649136,
+        "true": 0.7734050988019898,
+        "width": 0.22311812412481458,
+        "covered": true
+      },
+      {
+        "node": "N78",
+        "mle": 0.8732122268893959,
+        "true": 0.840257890432341,
+        "width": 0.47151642803722577,
+        "covered": true
+      },
+      {
+        "node": "N312",
+        "mle": 0.7373084959013754,
+        "true": 0.890121304316242,
+        "width": 0.33887184857823194,
+        "covered": true
+      }
+    ]
+  }
+}

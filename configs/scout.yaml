@@ -1,0 +1,7 @@
+total_time: 1.0
+n_sites: 40
+confidence: 0.95
+coverage_reps: 12
+seed: 7
+out_dir: results/scout
+convexml_dir: data_store/convexml

@@ -1,0 +1,70 @@
+{
+  "dataset": "convexml_official_default",
+  "dryad_doi": "10.5061/dryad.qrfj6q5nz",
+  "regime": null,
+  "estimand": "age:N1",
+  "rate_bounds": [
+    0.1756506700337557,
+    2.1033856584734045
+  ],
+  "anchors": {
+    "total_time": 1.0
+  },
+  "validation_split": {
+    "calib_sites": [
+      0,
+      3,
+      4,
+      9,
+      10,
+      12,
+      14,
+      19,
+      22,
+      24,
+      27,
+      28,
+      30,
+      35,
+      37,
+      38
+    ],
+    "analysis_sites": [
+      1,
+      2,
+      5,
+      6,
+      7,
+      8,
+      11,
+      13,
+      15,
+      16,
+      17,
+      18,
+      20,
+      21,
+      23,
+      25,
+      26,
+      29,
+      31,
+      32,
+      33,
+      34,
+      36
+    ],
+    "seed": 7,
+    "locked_before_headline": true,
+    "note": "official Dryad tree_0 default regime"
+  },
+  "result": {
+    "target": "age:N1",
+    "lower": 0.11389915190097881,
+    "upper": 0.2367643698863555,
+    "mle": 0.1139275632466313,
+    "status": "partially_identified",
+    "width_frac": 0.12286521798537668
+  },
+  "solver": "scalable_timing_certificate"
+}

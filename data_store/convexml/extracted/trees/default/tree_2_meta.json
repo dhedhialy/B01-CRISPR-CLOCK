@@ -1,0 +1,14 @@
+{
+  "regime": "default",
+  "repetition": 2,
+  "n_leaves": 32,
+  "n_barcodes": 13,
+  "sites_per_barcode": 3,
+  "n_sites": 39,
+  "expected_proportion_mutated": 0.5,
+  "expected_prop_missing": 0.2,
+  "total_time": 1.0,
+  "source": "ConvexML-protocol replication (Dryad download blocked by Anubis/proxy)",
+  "dryad_doi": "10.5061/dryad.qrfj6q5nz",
+  "note": "32-leaf slice for B01 exact solver; schema matches Dryad trees/default/"
+}

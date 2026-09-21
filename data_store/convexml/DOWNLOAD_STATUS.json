@@ -1,0 +1,17 @@
+{
+  "ok": true,
+  "doi": "10.5061/dryad.qrfj6q5nz",
+  "files": [
+    {
+      "name": "trees.tgz",
+      "path": "/Users/farasatdhedhi/Downloads/bo1 research/data_store/convexml/convexml_dryad_trees.tgz",
+      "sha256": "b2339df33a83fe1c3c3860cf6a54215cd58a3c28315effdb0a4ea79b78f25fd9"
+    },
+    {
+      "name": "README.md",
+      "path": "/Users/farasatdhedhi/Downloads/bo1 research/data_store/convexml/convexml_dryad_readme.md",
+      "sha256": "755b3a7efde956dc95a04048b98ffa07122731b23a4202a4f40043acc12ed78f"
+    }
+  ],
+  "note": "Official Dryad bundle downloaded; extract trees.tgz under extracted/."
+}

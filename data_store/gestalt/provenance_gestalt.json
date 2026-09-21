@@ -1,0 +1,17 @@
+{
+  "accession": "GSE81713",
+  "role": "real_data_consistency",
+  "total_time_dp": 5.0,
+  "files": {
+    "mix_matrix": "/Users/farasatdhedhi/Downloads/bo1 research/data_store/gestalt/GSE81713_fish_ADR1_PHYLIP_MIX_gte5_input.txt.gz",
+    "newick": "/Users/farasatdhedhi/Downloads/bo1 research/data_store/gestalt/GSE81713_fish_ADR1_PHYLIP_MIX_gte5_output.newick.txt.gz",
+    "annotations": "/Users/farasatdhedhi/Downloads/bo1 research/data_store/gestalt/GSE81713_fish_ADR1_PHYLIP_MIX_gte5_input.annotations.txt.gz",
+    "json_tree": "/Users/farasatdhedhi/Downloads/bo1 research/data_store/gestalt/GSE81713_fish_ADR1_PHYLIP_MIX_gte5.json.gz"
+  },
+  "sha256": {
+    "mix_matrix": "d4a3d1cb10e2ebd0a72e28722ea4381e15eb548bbe7eec860cf71356e9333bc3",
+    "newick": "aabb4c7b57294954a45005e75f3c7d1bbc28594ad8f61e416de53f09ce2e4fb8",
+    "annotations": "88123d971b32a18d1fbc73d3bccd74f6adec240efe7bb739a727abb7ac84a8fc",
+    "json_tree": "c586b0b413bf8e3a5c3059703dc6e45def38e44be75033b2391fbde12c88e4e8"
+  }
+}

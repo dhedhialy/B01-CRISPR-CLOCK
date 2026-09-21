@@ -1,0 +1,74 @@
+{
+  "ensemble": [
+    {
+      "target": "age:A",
+      "union_lower": 0.0,
+      "union_upper": 0.7142857142857142,
+      "robust_order": false,
+      "per_topology": [
+        {
+          "topology": "identity",
+          "lower": 0.21428571428571427,
+          "upper": 0.7142857142857142,
+          "status": "partially_identified"
+        },
+        {
+          "topology": "swap:L0<->L2",
+          "lower": 0.0,
+          "upper": 0.14285714285714285,
+          "status": "partially_identified"
+        },
+        {
+          "topology": "swap:L1<->L3",
+          "lower": 0.0,
+          "upper": 0.2857142857142857,
+          "status": "partially_identified"
+        },
+        {
+          "topology": "swap:L0<->L3",
+          "lower": 0.0,
+          "upper": 0.21428571428571427,
+          "status": "partially_identified"
+        }
+      ]
+    },
+    {
+      "target": "order_gap:A,B",
+      "union_lower": -0.4285714285714285,
+      "union_upper": 0.42857142857142855,
+      "robust_order": false,
+      "per_topology": [
+        {
+          "topology": "identity",
+          "lower": -0.4285714285714285,
+          "upper": 0.3571428571428571,
+          "status": "partially_identified"
+        },
+        {
+          "topology": "swap:L0<->L2",
+          "lower": 0.0,
+          "upper": 0.42857142857142855,
+          "status": "partially_identified"
+        },
+        {
+          "topology": "swap:L1<->L3",
+          "lower": -0.21428571428571427,
+          "upper": 0.14285714285714285,
+          "status": "partially_identified"
+        },
+        {
+          "topology": "swap:L0<->L3",
+          "lower": -0.14285714285714285,
+          "upper": 0.21428571428571427,
+          "status": "partially_identified"
+        }
+      ]
+    }
+  ],
+  "second_architecture": {
+    "lower": 0.0,
+    "upper": 0.6428571428571428,
+    "status": "partially_identified",
+    "width_frac": 0.6428571428571428
+  }
+}

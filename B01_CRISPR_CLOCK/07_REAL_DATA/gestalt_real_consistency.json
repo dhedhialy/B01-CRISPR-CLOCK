@@ -1,0 +1,148 @@
+{
+  "mix_meta": {
+    "declared_n_sites": 1154,
+    "observed_n_sites": 1156,
+    "site_count_consistent": true
+  },
+  "audit": {
+    "n_leaves": 601,
+    "n_sites": 1156,
+    "n_internals": 601,
+    "missing_frac": 0.0,
+    "edited_frac_observed": 0.004345410475044476,
+    "saturation_proxy": 0.004345410475044475,
+    "sites_gt50pct_edited": 0
+  },
+  "calib_sites_n": 462,
+  "analysis_sites_n": 694,
+  "transferred_bounds_per_dp": [
+    0.001,
+    0.0018379388433687205
+  ],
+  "targets": [
+    "age:int1",
+    "order_gap:int1,int166",
+    "age:int575"
+  ],
+  "certified_n_internals": 63,
+  "certificates": [
+    {
+      "target": "age:int1",
+      "lower_dp": 4.5508,
+      "upper_dp": 4.8506,
+      "mle_dp": 4.9562,
+      "width_dp": 0.2998,
+      "width_frac_of_T": 0.06,
+      "status": "partially_identified",
+      "depth": 2,
+      "boundary_clipped_artifact": false
+    },
+    {
+      "target": "order_gap:int1,int166",
+      "lower_dp": 0.0,
+      "upper_dp": 5.0,
+      "mle_dp": 0.0,
+      "width_dp": 5.0,
+      "width_frac_of_T": 1.0,
+      "status": "unidentified",
+      "depth": null,
+      "boundary_clipped_artifact": false
+    },
+    {
+      "target": "age:int575",
+      "lower_dp": 4.998,
+      "upper_dp": 5.0,
+      "mle_dp": 4.998,
+      "width_dp": 0.002,
+      "width_frac_of_T": 0.0004,
+      "status": "partially_identified",
+      "depth": 12,
+      "boundary_clipped_artifact": true
+    }
+  ],
+  "recalibrated": [
+    {
+      "target": "age:int1",
+      "mle_dp": 4.9562,
+      "conformal_lo_dp": 3.8406,
+      "conformal_hi_dp": 5.0,
+      "in_domain": true,
+      "width_dp": 1.1594
+    },
+    {
+      "target": "age:int575",
+      "mle_dp": 4.998,
+      "conformal_lo_dp": 3.8824,
+      "conformal_hi_dp": 5.0,
+      "in_domain": true,
+      "width_dp": 1.1176
+    }
+  ],
+  "recalibrated_source": "convexml_draw13_63node_train (benchmark-trained bins)",
+  "recalibrated_in_domain": true,
+  "certificate_summary": [
+    {
+      "target": "age:int1",
+      "lower_dp": 4.5508,
+      "upper_dp": 4.8506,
+      "mle_dp": 4.9562,
+      "width_dp": 0.2998,
+      "width_frac_of_T": 0.06,
+      "status": "partially_identified",
+      "depth": 2,
+      "boundary_clipped_artifact": false
+    },
+    {
+      "target": "order_gap:int1,int166",
+      "lower_dp": 0.0,
+      "upper_dp": 5.0,
+      "mle_dp": 0.0,
+      "width_dp": 5.0,
+      "width_frac_of_T": 1.0,
+      "status": "unidentified",
+      "depth": null,
+      "boundary_clipped_artifact": false
+    }
+  ],
+  "checks": {
+    "within_0_to_T_dp": [
+      true,
+      true,
+      true
+    ],
+    "order_vs_depth_sane": null,
+    "width_sane": [
+      true,
+      false,
+      false
+    ]
+  },
+  "conclusions": {
+    "scope": "exploratory n=3 pass at reduced optimizer effort (non-frozen knobs; see effort); not a systematic sweep like the benchmark",
+    "total_time_anchor_consistent": true,
+    "widths_plausible": false,
+    "calibrated_intervals_plausible": true,
+    "boundary_clipped_targets": [
+      "age:int575"
+    ],
+    "late_shift_reproduces_on_real_data": true,
+    "ground_truth_available": false,
+    "note": "Real biology estimate: valid only as profile-LR reconstruction with no internal-age ground truth; coverage claims require a benchmark (none exists for real lineages). Findings: (1) sparse GESTALT encoding (edited_frac 0.004) reproduces the late-shift bias measured on the ConvexML benchmark (all age MLEs hug the 5 dpf harvest); (2) benchmark-trained conformal bins transfer in-domain; (3) no coverage claim is made on real data. All three statements rest on the n=3 reduced-effort pass; the late-shift replication is a promising, honestly-scoped signal, not a confirmed result."
+  },
+  "provenance": {
+    "accession": "GSE81713",
+    "sample": "fish ADR1 (gte5)",
+    "source_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE81713",
+    "total_time_dp": 5.0
+  },
+  "effort": {
+    "n_leaves_induced": 64,
+    "n_starts": 2,
+    "seed": 7,
+    "max_sweeps": 1,
+    "n_restarts": 1,
+    "grid_n": 6,
+    "grid_sweeps": 1,
+    "note": "Reduced-effort exploratory run: real matrices are 30-50x heavier per eval than the benchmark (694 analysis sites); the frozen default effort (max_sweeps=3, restarts=3, grid 16) exceeded a 2h wall-clock on this real tree. Benchmark artifacts use the frozen defaults and are unaffected."
+  }
+}

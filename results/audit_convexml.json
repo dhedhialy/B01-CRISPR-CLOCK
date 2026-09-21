@@ -1,0 +1,36 @@
+{
+  "name": "ConvexML",
+  "accession_ok": true,
+  "sha256": "c92b30eccf293b3ca8e29410a15c3336a86d88621272f019da26fb96cd95e5a0",
+  "source_url": "https://doi.org/10.5061/dryad.qrfj6q5nz",
+  "recorder_architecture": "CRISPR/Cas9 irreversible (ConvexML default regime encoding)",
+  "n_targets_sites": 39,
+  "n_leaves": 400,
+  "n_edges": 799,
+  "experimental_duration": 1.0,
+  "replication_unit": "embryo_or_tree",
+  "pseudoreplication_guard": "Analyses treat each tree/embryo as one replicate; leaf cells are not independent biological replicates.",
+  "missingness": {
+    "n_leaves": 400,
+    "n_sites": 39,
+    "missing_frac": 0.2048076923076923,
+    "edited_frac_observed": 0.5177750906892382,
+    "saturation_proxy": 0.41173076923076923
+  },
+  "topology_provenance": "simulated",
+  "ultrametric": true,
+  "leaf_age_range": [
+    1.0,
+    1.0
+  ],
+  "calibration_holdout_separated": false,
+  "checklist": {
+    "verify_accession_version_integrity": true,
+    "record_architecture_targets_encoding_duration": true,
+    "define_replication_unit": true,
+    "quantify_missingness_dropout_saturation": true,
+    "document_topology_provenance": true,
+    "separate_calibration_holdout": false,
+    "deterministic_preprocessing_checksums": true
+  }
+}
